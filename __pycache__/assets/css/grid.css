@@ -1,0 +1,50 @@
+    body {
+        background-color: rgb(189, 245, 189);
+        padding-top: 50px;
+    }
+    
+    .layout {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        height: 350px;
+        column-gap: 10px;
+        row-gap: 15px;
+    }
+    
+    .one {
+        background-color: rgb(124, 207, 68);
+    }
+    
+    .two {
+        background-color: rgb(100, 100, 252);
+    }
+    
+    .three {
+        background-color: rgb(253, 140, 2);
+    }
+    
+    .flexing {
+        display: flex;
+        flex-direction: row;
+        margin-top: 5px;
+        height: 50px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: red;
+        justify-content: start;
+    }
+    
+    .flex1 {
+        background-color: blue;
+        width: 100px;
+    }
+    
+    .flex2 {
+        background-color: rgb(31, 172, 50);
+        width: 100px;
+    }
+    
+    .flex3 {
+        background-color: rgb(167, 22, 22);
+        width: 100px;
+    }

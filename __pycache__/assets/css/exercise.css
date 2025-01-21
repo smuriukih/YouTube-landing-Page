@@ -1,0 +1,46 @@
+    body {
+        background-color: rgb(252, 252, 252);
+        padding-top: 105px;
+        padding-left: 105px;
+    }
+
+    .absolute-here {
+        background-color: red;
+        top: 100px;
+        left: 10px;
+        z-index: 100;
+    }
+
+    .left-navigation {
+        background-color: rgb(255, 101, 121);
+        position: fixed;
+        top: 100px;
+        bottom: 0;
+        left: 0;
+        width: 100px;
+        color: white;
+    }
+
+    .top-header {
+        background-color: #00539C;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 100px;
+    }
+
+
+
+    .main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin-bottom: 20px;
+        column-gap: 20px;
+    }
+
+    .other-content {
+        background-color: chartreuse;
+        width: 290px;
+        height: 290px;
+    }

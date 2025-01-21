@@ -1,0 +1,107 @@
+.whole {
+    background-color: rgb(165, 100, 165);
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    width: 1200px;
+    margin-top: 50px;
+    margin-left: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home {
+    display: flex;
+    width: 100px;
+    font-size: x-large;
+    margin-left: 20px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+
+.searchbar {
+    display: flex;
+    border-radius: 50px;
+    height: 30px;
+    width: 300px;
+    text-align: center;
+}
+
+.download {
+    display: flex;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.download-btn {
+    background-color: purple;
+    color: aliceblue;
+    border-radius: 4px;
+    width: 120px;
+}
+
+.download:active {
+    background-color: pink;
+    color: aliceblue;
+}
+
+
+/**css for the other exercise**/
+
+.container {
+    background-color: aqua;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.additional-exercises {
+    width: 1000px;
+    margin-top: 60px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+}
+
+.profile-image {
+    display: flex;
+    width: 100px;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.image {
+    border-radius: 50px;
+    min-height: 70px;
+    width: 70px;
+    margin-left: 20px;
+}
+
+.details {
+    margin-right: 600px;
+}
+
+.follow {
+    display: flex;
+    flex: 1;
+}
+
+.follow-button {
+    height: 50px;
+    width: 120px;
+    border-radius: 10px;
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+}
+
+.text-details {
+    line-height: 3px;
+    width: 300px;
+}
